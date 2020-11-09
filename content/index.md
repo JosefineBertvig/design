@@ -7,3 +7,7 @@ Home page
 ==========================
 
 My namne is Josefine Bertvig. I'm a student in BTH reading Design. 
+
+![me](%assets_url%/img/me.jpg){.me}
+
+ 

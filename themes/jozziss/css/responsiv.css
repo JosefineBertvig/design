@@ -1,0 +1,151 @@
+/**
+ * responsive
+ */
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url("assets/img/portrait.png");
+        height: auto;
+        background-size: cover;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .me,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    .flash-img {
+        width: 100%;
+    }
+
+    footer {
+        font-family: sans-serif;
+        font-size: 8px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text,
+    .aside {
+        float: none;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .flash-img,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 8px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text,
+    .aside {
+        float: none;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .flash-img,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 8px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text,
+    .aside {
+        float: none;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .flash-img,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 8px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text,
+    .aside {
+        float: none;
+    }
+}
