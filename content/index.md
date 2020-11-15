@@ -16,7 +16,7 @@ roligt att lära mig nya system. I och med coronapandemin har vi på mitt nuvara
 Tycker det är roligt och inspirerande att lära mig nya saker och söker alltid nya utmaningar. Har pluggat ryska, gitarr och folkhälsopsykologi på Högskolan utöver socionomprogrammet.
 Förra våren var jag med på en webbprogrammeringskurs för nybörjare i HTML/CSS med Tjejer Kodar på Gotland i samarbete med Svenska Spel, det var väldigt kul!
 Min man jobbar som programmerare och har alltid tyckt att det är det roligaste han vet. Han har inspirerat mig att lära mig mer och har berättat att inom programmering, oavsett om det är frontend eller backend man arbetar med, är det en ständig snabb utveckling där det behövs personer som brinner för att lära sig nya saker och som tycker om utveckling och att lära sig nya saker.
-Jag tänkte att det skulle vara roligt att ge det en chans att lära sig programmering, så nu går jag kurspaketet webbutveckling 30 p. Att få lära mig mer om design ska bli väldigt kul.
+Jag tänkte att det skulle vara roligt att ge det en chans att lära sig programmering, så nu studerar jag Webbprogrammering och databaser, 30hp på distans. Att få lära mig mer om design ska bli väldigt kul.
 <br><br>
 </p>
 
