@@ -1,0 +1,47 @@
+/*** BASIC LAYOUT ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.aside {
+    box-sizing: border-box;
+    background-color: rgb(222, 188, 238);
+    width: 40%;
+    float: right;
+    padding: 30px;
+    margin: 30px;
+    }
+
+.main {
+    flex: 1 0 auto;
+}
+
+.container {
+    width: 40%;
+    padding: 0 0.5em;
+    margin: 50px;
+    padding: 50px;
+    float: left;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
+
+.redovisning {
+    float: right;
+}
+
+/*** LAYOUT PICTURE ***/
+.me {
+    height: 400px;
+}
+
+.flash-img {
+    height: 300px;
+    width: 100%;
+    margin: 0, auto;
+    margin-top: 0;
+}

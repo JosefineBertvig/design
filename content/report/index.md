@@ -1,6 +1,6 @@
 ---
-Title: Report
-Description: The course report page
+Title: Redovisning
+Description: Kursens redovisningssida
 ---
 
 Redovisningssida för design

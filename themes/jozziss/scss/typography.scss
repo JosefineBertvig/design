@@ -1,0 +1,57 @@
+/*** TYPOGRAPHY ***/
+
+html {
+    font-size: 100%;
+    height: 100%;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p {
+    font-size: $font-size;
+    line-height: $line;
+    margin-bottom: $magic-number;
+}
+
+h1 {
+    font-size: $font-size-h1;
+    line-height: $line;
+    margin-bottom: $magic-number;
+    color: $textcolor;
+}
+
+h2 {
+    font-size: $font-size-h2;
+    line-height: $line;
+    margin-bottom: $magic-number;
+}
+
+h3 {
+    font-size: $font-size-h3;
+    line-height: $line;
+    margin-bottom: $magic-number;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr,
+table,
+.table-responsive,
+ol,
+ul,
+dl,
+dd,
+pre,
+fieldset {
+    margin-bottom: 1em;
+}

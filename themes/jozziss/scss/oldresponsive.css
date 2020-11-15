@@ -1,0 +1,247 @@
+/**
+ * responsive
+ */
+ @media screen and (orientation: portrait) {
+    body {
+        background-image: url("assets/img/portrait.png");
+        height: auto;
+        background-size: cover;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text {
+        float: none;
+    }
+
+    .aside {
+        float: none;
+        max-width: 100%;
+    }
+
+    .flash-img {
+        max-width: 100%;
+        margin: 0, auto;
+    }
+
+    #nav {
+    clear: both;
+    padding: 0;
+    }
+
+    #nav ul {
+    padding-bottom: 1em;
+    }
+
+    #nav ul li {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+    }
+
+    #nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+    }    
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text {
+        float: none;
+    }
+
+    .aside {
+        float: none;
+        max-width: 100%;
+    }
+
+    .flash-img {
+        max-width: 100%;
+        margin: 0, auto;
+    }
+    #nav {
+        clear: both;
+        padding: 0;
+    }
+    #nav ul {
+        padding-bottom: 1em;
+    }
+    #nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    #nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text {
+        float: none;
+    }
+
+    .aside {
+        float: none;
+        max-width: 100%;
+    }
+
+    .flash-img {
+        max-width: 100%;
+        margin: 0, auto;
+    }
+    #nav {
+        clear: both;
+        padding: 0;
+    }
+    #nav ul {
+        padding-bottom: 1em;
+    }
+    #nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    #nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    body,
+    header,
+    main,
+    h1,
+    h2,
+    p,
+    .header-pic,
+    .container,
+    .container2,
+    .social {
+        width: auto;
+    }
+  
+    footer {
+        font-family: sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    main {
+        padding: 1em 0.4em;
+    }
+  
+    .text {
+        float: none;
+    }
+
+    .aside {
+        float: none;
+        max-width: 100%;
+    }
+
+    .flash-img {
+        max-width: 100%;
+        margin: 0, auto;
+    }
+    #nav {
+        clear: both;
+        padding: 0;
+    }
+    #nav ul {
+        padding-bottom: 1em;
+    }
+    #nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    #nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+}
