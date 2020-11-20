@@ -1,0 +1,13 @@
+/* report.scss */
+.landingpage {
+    display: grid;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
