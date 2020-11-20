@@ -49,27 +49,7 @@
     .flash-img {
         max-width: 100%;
         margin: 0, auto;
-    }
-
-    #nav {
-    clear: both;
-    padding: 0;
-    }
-
-    #nav ul {
-    padding-bottom: 1em;
-    }
-
-    #nav ul li {
-    display: block;
-    margin-left: 0;
-    text-align: center;
-    }
-
-    #nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-    }    
+    }  
 }
 
 /* Portrait tablets and small desktops */
@@ -111,22 +91,6 @@
     .flash-img {
         max-width: 100%;
         margin: 0, auto;
-    }
-    #nav {
-        clear: both;
-        padding: 0;
-    }
-    #nav ul {
-        padding-bottom: 1em;
-    }
-    #nav ul li {
-        display: block;
-        margin-left: 0;
-        text-align: center;
-    }
-    #nav ul li a {
-        display: block;
-        padding: 0.5em 0;
     }
 }
 
@@ -170,22 +134,6 @@
         max-width: 100%;
         margin: 0, auto;
     }
-    #nav {
-        clear: both;
-        padding: 0;
-    }
-    #nav ul {
-        padding-bottom: 1em;
-    }
-    #nav ul li {
-        display: block;
-        margin-left: 0;
-        text-align: center;
-    }
-    #nav ul li a {
-        display: block;
-        padding: 0.5em 0;
-    }
 }
 
 /* Portrait phones and smaller */
@@ -227,21 +175,5 @@
     .flash-img {
         max-width: 100%;
         margin: 0, auto;
-    }
-    #nav {
-        clear: both;
-        padding: 0;
-    }
-    #nav ul {
-        padding-bottom: 1em;
-    }
-    #nav ul li {
-        display: block;
-        margin-left: 0;
-        text-align: center;
-    }
-    #nav ul li a {
-        display: block;
-        padding: 0.5em 0;
     }
 }

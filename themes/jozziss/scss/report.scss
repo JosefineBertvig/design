@@ -8,6 +8,10 @@
     justify-self: center;
 }
 
+.kmom-box {
+    grid-column: span 3;
+}
+
 .kmom-box.project {
     grid-column: span 3;
 }

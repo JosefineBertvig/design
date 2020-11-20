@@ -31,10 +31,10 @@
 <header class="header">
     <div id="header" role="banner">
         <img class"header-pic" src="{{ base_url }}/image/header.png"/>
-                <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
-                <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
-                <span class="sr-only">Toggle Menu</span>
-                </a>
+            <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+            <span class="sr-only">Toggle Menu</span>
+            </a>
 
             {% if pages["_meta"].meta.logo %}
                 <div class="logo" aria-hidden="true">
@@ -62,23 +62,15 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </header>
+    </div>
+</header>
 
-     <main class="main" role="main">
-        <img class="flash-img" src="https://sites.google.com/site/i15008196link/_/rsrc/1448412863943/config/customLogo.gif?revision=2">
-        
+<div class="main" role="main">
+    <div class="landingpage">
         <div class="container">
             {{ content }}
-        </div>
-
-        <aside>
-            <img class="aside" src="{{ base_url }}/image/mirakel.png"/>
-
-        <p></p>
-        </aside>
-
-    </main>
+    </div>
+</div>
 
     <footer class="footer">
         <div class="container2">
