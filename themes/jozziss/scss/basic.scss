@@ -12,10 +12,12 @@
     float: right;
     padding: 30px;
     margin: 30px;
-    }
+}
 
 .main {
     flex: 1 0 auto;
+    flex-grow: 1;
+    min-height: calc(1400px - 100px);
 }
 
 .container {
@@ -28,10 +30,6 @@
 
 .widescreen .container {
     max-width: 72em;
-}
-
-.redovisning {
-    float: right;
 }
 
 /*** LAYOUT PICTURE ***/

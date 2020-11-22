@@ -4,41 +4,54 @@ Description: Kursens redovisningssida
 Template: report
 ---
 
-* [kmom01](report/kmom01)
-* [kmom02](report/kmom02)
-* [kmom03](report/kmom03)
-* [kmom04](report/kmom04)
-* [kmom05](report/kmom05)
-* [kmom06](report/kmom06)
-* [kmom10](report/kmom10)
-
 Redovisningssida för design
 ==========================
 
 <div class="kmom-box">
-Kmom01
+<h2>Kmom01</h2>
+<br><br>
+<p>Här är redovisning från kmom01</p>      
+<a href="report/kmom01"><p>Läs mer...</p></a>   
 </div>
 
 <div class="kmom-box">
-Kmom02
+<h2>Kmom02</h2>
+<br><br>
+<p>Här är redovisning från kmom02</p>
+<a href="report/kmom02"><p>Läs mer...</p></a>     
 </div>
 
 <div class="kmom-box">
-Kmom03
+<h2>Kmom03</h2>
+<br><br>
+<p>Här är redovisning från kmom03</p>  
+<a href="report/kmom03"><p>Läs mer...</p></a>      
 </div>
 
 <div class="kmom-box">
-Kmom04
+<h2>Kmom04</h2>
+<br><br>
+<p>Här är redovisning från kmom04</p> 
+<a href="report/kmom04"><p>Läs mer...</p></a>      
 </div>
 
 <div class="kmom-box">
-Kmom05
+<h2>Kmom05</h2>
+<br><br>
+<p>Här är redovisning från kmom05</p>
+<a href="report/kmom05"><p>Läs mer...</p></a>        
 </div>
 
 <div class="kmom-box">
-Kmom06
+<h2>Kmom06</h2>
+<br><br>
+<p>Här är redovisning från kmom06</p>   
+<a href="report/kmom06"><p>Läs mer...</p></a>     
 </div>
 
 <div class="kmom-box project">
-Kmom10
+<h2>Kmom10</h2>
+<br><br>
+<p>Projektet - här är redovisningen från projektet.</p>
+<a href="report/kmom10"><p>Läs mer...</p></a>   
 </div>

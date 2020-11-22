@@ -28,22 +28,21 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 
 
-<header class="header">
-    <div id="header" role="banner">
+<header class="header" role="banner">
         <img class"header-pic" src="{{ base_url }}/image/header.png"/>
-                <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
-                </a>
-
+            </a>
             {% if pages["_meta"].meta.logo %}
                 <div class="logo" aria-hidden="true">
                     <a href="{{ "index"|link }}">
                         <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                        {# <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" /> #}
                     </a>
                 </div>
             {% endif %}
-
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
                 <a href="{{ "index"|link }}">
                     <h1>{{ site_title }}</h1>
@@ -56,14 +55,20 @@
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">{{ page.title }}</a>
+                                <a href="{{ page.url }}">
+                                    {% if page.meta.icon %}
+                                        <i class="{{ page.meta.icon }}"></i>
+                                    {% else %}
+                                        {{ page.title }}
+                                    {% endif %}
+                                </a>
                             </li>
                         {% endfor %}
                     </ul>
                 </div>
             </div>
-        </div>
-    </header>
+    </div>
+</header>
 
      <main class="main" role="main">
         <img class="flash-img" src="https://sites.google.com/site/i15008196link/_/rsrc/1448412863943/config/customLogo.gif?revision=2">

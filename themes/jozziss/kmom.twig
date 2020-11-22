@@ -27,7 +27,6 @@
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 
-
 <header class="header" role="banner">
         <img class"header-pic" src="{{ base_url }}/image/header.png"/>
 
@@ -70,11 +69,25 @@
     </div>
 </header>
 
+
+
 <div class="main" role="main">
-    <div class="landingpage">
-            {{ content }}
-    </div>
+    <aside class="side-nav">
+        <ul class="report-nav">
+        {% for i in 1..6 %}
+        <li {% if current_page.meta.kmom == i %} class="active"{% endif %}><a href="kmom0{{ i }}">Kmom0{{ i }}</a>
+        </li>
+        {% endfor %}
+        <li {% if current_page.meta.kmom == 10 %} class="active" {% endif %}><a href="kmom10">Projekt</a></li>
+        </ul>
+    </aside>
+
+    <div class="container">
+        {{ content }}
+    </div>    
 </div>
+
+
 
     <footer class="footer">
         <div class="container2">

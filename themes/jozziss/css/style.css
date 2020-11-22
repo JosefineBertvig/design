@@ -6475,6 +6475,8 @@ readers do not read off random characters that represent icons */
 
 .main {
   flex: 1 0 auto;
+  flex-grow: 1;
+  min-height: calc(1400px - 100px);
 }
 
 .container {
@@ -6487,10 +6489,6 @@ readers do not read off random characters that represent icons */
 
 .widescreen .container {
   max-width: 72em;
-}
-
-.redovisning {
-  float: right;
 }
 
 /*** LAYOUT PICTURE ***/
@@ -6576,8 +6574,19 @@ fieldset {
 }
 
 /* report.scss */
+body {
+  min-height: 480px;
+  background-color: #e4e3e0;
+  width: 1900px;
+  margin: 8px auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .landingpage {
   display: grid;
+  gap: 5em 5em;
+  padding: 5em;
 }
 
 .landingpage h1 {
@@ -6586,20 +6595,108 @@ fieldset {
 }
 
 .kmom-box {
-  grid-column: span 3;
+  grid-column: span 1;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  border: 3px solid rgba(233, 10, 214, 0.39);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.kmom-box h2 {
+  background-color: #db82f7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.kmom-box p {
+  padding-left: 20px;
 }
 
 .kmom-box.project {
+  display: block;
+  text-align: left;
   grid-column: span 3;
 }
 
+.kmom-box.project h2 {
+  display: block;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* The side navigation menu */
+.side-nav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #6db7e9;
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.side-nav a {
+  display: block;
+  color: #1a1818;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar .active {
+  background-color: #4c74afd0;
+  color: #e9cdcd;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: #e6c8c8;
+}
+
+/* Page content. */
+.container {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .side-nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .side-nav a {
+    float: left;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+}
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media (max-width: 676px) {
+  .side-nav {
+    visibility: hidden;
+    display: none;
+  }
+}
 body {
   min-height: 480px;
   background-color: #e4e3e0;
   width: 1900px;
   margin: 8px auto;
   display: flex;
-  flex-direction: column;
+  margin: 0;
 }
 
 /*** BASIC LAYOUT: HEADER ***/
@@ -6689,10 +6786,10 @@ header a:visited {
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
+  display: flex;
+  height: 150px;
   background: #db82f7;
   color: #c95d69;
-  width: 100%;
-  flex: 0 0 auto;
 }
 .footer a {
   text-decoration: none;
@@ -6718,6 +6815,8 @@ header a:visited {
   max-width: 48em;
   padding: 0 0.5em;
   margin: 0 auto;
+  flex: 1;
+  /* same as flex-grow: 1; */
 }
 
 /**
@@ -6751,6 +6850,7 @@ p,
     text-decoration: none;
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
 
   main {
@@ -6762,8 +6862,10 @@ p,
   }
 
   .aside {
-    float: none;
-    max-width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: auto;
   }
 
   .flash-img {
@@ -6792,6 +6894,7 @@ p,
     text-decoration: none;
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
 
   main {
@@ -6803,13 +6906,28 @@ p,
   }
 
   .aside {
-    float: none;
-    max-width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: auto;
   }
 
   .flash-img {
     max-width: 100%;
     margin: 0, auto;
+  }
+
+  .landingpage h1 {
+    grid-column: span 6;
+    justify-self: center;
+  }
+
+  .kmom-box {
+    grid-column: span 3;
+  }
+
+  .kmom-box.project {
+    grid-column: span 6;
   }
 }
 /* Landscape phones and portrait tablets */
@@ -6833,6 +6951,7 @@ p,
     text-decoration: none;
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
 
   main {
@@ -6844,54 +6963,21 @@ p,
   }
 
   .aside {
-    float: none;
-    max-width: 100%;
-  }
-
-  .flash-img {
-    max-width: 100%;
-    margin: 0, auto;
-  }
-}
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  body,
-header,
-main,
-h1,
-h2,
-p,
-.header-pic,
-.container,
-.container2,
-.social {
+    float: left;
+    padding: 0;
+    margin: 0;
     width: auto;
   }
 
-  footer {
-    font-family: sans-serif;
-    font-size: 12px;
-    text-decoration: none;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  main {
-    padding: 1em 0.4em;
-  }
-
-  .text {
-    float: none;
-  }
-
-  .aside {
-    float: none;
-    max-width: 100%;
-  }
-
   .flash-img {
     max-width: 100%;
     margin: 0, auto;
+  }
+
+  .kmom-box.project,
+.kmom-box,
+.landingpage h1 {
+    grid-column: span 4;
   }
 }
 .hidden {
@@ -6911,54 +6997,54 @@ p,
 
 .slide {
   overflow-y: hidden !important;
-  -webkit-transition: height 0.5s ease-in !important;
   transition: height 0.5s ease-in !important;
 }
 
-#nav {
+.nav {
   padding: 3em 0;
   text-align: right;
 }
-#nav ul {
+.nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-#nav ul li {
+.nav ul li {
   display: inline-block;
   margin-left: 1em;
   padding: 0;
   font-weight: bold;
 }
 
-#nav a:hover, #nav-toggle:hover {
+.nav a:hover,
+.nav-toggle:hover {
   text-decoration: underline;
 }
 
-#nav-toggle {
+.nav-toggle {
   display: none;
 }
 
 /* Small devices */
 @media (max-width: 767px) {
-  #nav {
+  .nav {
     clear: both;
     padding: 0;
   }
-  #nav ul {
+  .nav ul {
     padding-bottom: 1em;
   }
-  #nav ul li {
+  .nav ul li {
     display: block;
     margin-left: 0;
     text-align: center;
   }
-  #nav ul li a {
+  .nav ul li a {
     display: block;
     padding: 0.5em 0;
   }
 
-  .js #nav-toggle {
+  .js .nav-toggle {
     display: block;
     float: right;
     width: 2em;
@@ -6969,7 +7055,7 @@ p,
     cursor: pointer;
   }
 
-  .js #nav-toggle > * {
+  .js .nav-toggle * {
     vertical-align: middle;
   }
 }

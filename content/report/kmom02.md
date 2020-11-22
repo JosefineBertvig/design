@@ -1,6 +1,7 @@
 ---
 Title: Kmom02
 Description: Part 2
+Template: kmom
 ---
 
 ![redovisning](%assets_url%/img/redovisning.png){.redovisning}

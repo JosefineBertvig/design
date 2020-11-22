@@ -17,7 +17,7 @@ body {
     width: 1900px;
     margin: 8px auto;
     display: flex;
-    flex-direction: column;
+    margin: 0;
 }
 
 /*** BASIC LAYOUT: HEADER ***/
@@ -115,10 +115,10 @@ header {
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
+    display: flex;
+    height: 150px;
     background: $background;
     color: $color;
-    width: 100%;
-    flex: 0 0 auto;
 
     a {
         text-decoration: none;
@@ -149,7 +149,9 @@ header {
     max-width: 48em;
     padding: 0 0.5em;
     margin: 0 auto;
+    flex: 1;
+    /* same as flex-grow: 1; */
 }
 
-@import 'oldresponsive';
+@import 'responsive';
 @import 'nav';

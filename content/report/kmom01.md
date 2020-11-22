@@ -1,13 +1,13 @@
 ---
 Title: Kmom01
 Description: Part 1
+Template: kmom
 ---
 
 ![redovisning](%assets_url%/img/redovisning.png){.redovisning}
 
 Kmom1
 ==================
-
 
 <h3>Har du jobbat med ramverk eller andra CMS:er tidigare?</h3>
 
