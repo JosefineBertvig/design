@@ -1,0 +1,163 @@
+@import 'common';
+@import 'variables-dark';
+@import 'basic';
+@import 'typography';
+@import 'report';
+
+body {
+    min-height: 480px;
+    background-color: $background-color;
+    width: 1900px;
+    margin: 8px auto;
+    display: flex;
+    margin: 0; 
+}
+    
+body img {
+    filter: grayscale(50%);
+}
+
+.flash-img {
+    filter: grayscale(85%);
+}
+
+/*** BASIC LAYOUT: HEADER ***/
+.header {
+    flex: 0 0 auto;
+}
+
+.header-pic {
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background: $header;
+    height: auto;
+    border: 3px solid $border2;
+
+    a,
+    a:visited {
+        color: $textcolor;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $framefrontpage;
+    }
+}
+
+.logo {
+    float: left;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.title * {
+    margin: 0;
+    color: $textcolor;
+}
+
+.title {
+    float: left;
+    padding: 3em 3em 3em 0;
+
+    p {
+        font-style: italic;
+        text-decoration: none;
+    }
+}
+
+.nav {
+    padding: 3em 0;
+    text-align: right;
+    margin-right: 20px;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: inline-block;
+        margin-left: 1em;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    a,
+    .nav-toggle {
+        color: $background;
+    }
+
+    .active a,
+    a:hover,
+    .nav-toggle:hover {
+        color: $color2;
+    }
+
+    a:hover,
+    .nav-toggle:hover {
+        color: $color;
+    }
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    display: flex;
+    height: 150px;
+    background: $background;
+    color: $color2;
+
+    a {
+        text-decoration: none;
+        color: $color2;
+    }
+
+    i {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $framefrontpage;
+    }
+
+    p {
+        margin: 0;
+        padding: 3em 0;
+    }
+
+    .social {
+        float: right;
+        padding: 1.5em 0 1.5em 1em;
+        font-size: 2rem;
+    }
+}
+
+.container2 {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+    flex: 1;
+    /* same as flex-grow: 1; */
+}
+
+@import 'responsive';
+@import 'nav';

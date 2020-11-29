@@ -22,14 +22,14 @@ body {
 .kmom-box {
     grid-column: span 1;
     grid-template-columns: 1fr, 1fr, 1fr;
-    border: 3px solid rgba(233, 10, 214, 0.39);
+    border: 3px solid $frame;
     display: flex;
     flex-direction: column;
     align-items: left;
 }
 
 .kmom-box h2 {
-    background-color: #db82f7;
+    background-color: $background;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@ body {
 /* Sidebar links */
 .side-nav a {
     display: block;
-    color: rgb(26, 24, 24);
+    color: $color2;
     padding: 16px;
     text-decoration: none;
 }
@@ -77,14 +77,14 @@ body {
 
 /* Active/current link */
 .sidebar .active {
-    background-color: #4c74afd0;
-    color: rgb(233, 205, 205);
+    background-color: $color;
+    color: $color2;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: rgb(230, 200, 200);
+    background-color: $color;
+    color: $color2;
 }
 
 /* Page content. */
@@ -94,9 +94,9 @@ body {
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 676px) {
     .side-nav {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         position: relative;
     }

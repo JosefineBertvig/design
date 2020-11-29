@@ -7,7 +7,7 @@
 
 .aside {
     box-sizing: border-box;
-    background-color: rgb(222, 188, 238);
+    background-color: $frame;
     width: 40%;
     float: right;
     padding: 30px;
@@ -26,6 +26,7 @@
     margin: 50px;
     padding: 50px;
     float: left;
+    height: auto;
 }
 
 .widescreen .container {
@@ -42,4 +43,8 @@
     width: 100%;
     margin: 0, auto;
     margin-top: 0;
+}
+
+.schema {
+    height: 400px;
 }

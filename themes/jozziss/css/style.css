@@ -6466,7 +6466,7 @@ readers do not read off random characters that represent icons */
 
 .aside {
   box-sizing: border-box;
-  background-color: #debcee;
+  background-color: #d394d5;
   width: 40%;
   float: right;
   padding: 30px;
@@ -6476,7 +6476,7 @@ readers do not read off random characters that represent icons */
 .main {
   flex: 1 0 auto;
   flex-grow: 1;
-  min-height: calc(1400px - 100px);
+  min-height: calc(1800px - 100px);
 }
 
 .container {
@@ -6485,6 +6485,7 @@ readers do not read off random characters that represent icons */
   margin: 50px;
   padding: 50px;
   float: left;
+  height: auto;
 }
 
 .widescreen .container {
@@ -6503,10 +6504,15 @@ readers do not read off random characters that represent icons */
   margin-top: 0;
 }
 
+.schema {
+  height: 400px;
+}
+
 /*** TYPOGRAPHY ***/
 html {
   font-size: 100%;
   height: 100%;
+  max-width: 100%;
 }
 
 * {
@@ -6536,23 +6542,32 @@ p {
   font-size: 1.2em;
   line-height: 1.4;
   margin-bottom: 1.68em;
+  color: #333;
 }
 
 h1 {
   font-size: 1.7em;
   line-height: 1.4;
   margin-bottom: 1.68em;
-  color: #221f20;
+  color: #333;
 }
 
 h2 {
+  color: #333;
   font-size: 1.5em;
   line-height: 1.4;
   margin-bottom: 1.68em;
 }
 
 h3 {
+  color: #333;
   font-size: 1.3em;
+  line-height: 1.4;
+  margin-bottom: 1.68em;
+}
+
+h4 {
+  font-size: 1.2em;
   line-height: 1.4;
   margin-bottom: 1.68em;
 }
@@ -6576,7 +6591,7 @@ fieldset {
 /* report.scss */
 body {
   min-height: 480px;
-  background-color: #e4e3e0;
+  background-color: #fbfaf7;
   width: 1900px;
   margin: 8px auto;
   display: flex;
@@ -6597,14 +6612,14 @@ body {
 .kmom-box {
   grid-column: span 1;
   grid-template-columns: 1fr, 1fr, 1fr;
-  border: 3px solid rgba(233, 10, 214, 0.39);
+  border: 3px solid #d394d5;
   display: flex;
   flex-direction: column;
   align-items: left;
 }
 
 .kmom-box h2 {
-  background-color: #db82f7;
+  background-color: #d972ff;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -6635,7 +6650,7 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #6db7e9;
+  background-color: #c979db;
   position: absolute;
   height: 100%;
   overflow: auto;
@@ -6644,21 +6659,21 @@ body {
 /* Sidebar links */
 .side-nav a {
   display: block;
-  color: #1a1818;
+  color: #ffff;
   padding: 16px;
   text-decoration: none;
 }
 
 /* Active/current link */
 .sidebar .active {
-  background-color: #4c74afd0;
-  color: #e9cdcd;
+  background-color: #c689f9;
+  color: #ffff;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: #e6c8c8;
+  background-color: #c689f9;
+  color: #ffff;
 }
 
 /* Page content. */
@@ -6668,9 +6683,9 @@ body {
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 676px) {
   .side-nav {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     position: relative;
   }
@@ -6692,7 +6707,7 @@ body {
 }
 body {
   min-height: 480px;
-  background-color: #e4e3e0;
+  background-color: #fbfaf7;
   width: 1900px;
   margin: 8px auto;
   display: flex;
@@ -6708,17 +6723,21 @@ body {
   display: block;
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 header {
-  background: #6db7e9;
+  background: #c979db;
   height: auto;
+  border: 3px solid #f2c3de;
 }
 header a,
 header a:visited {
-  color: #221f20;
+  color: #333;
   text-decoration: none;
+}
+header a:hover {
+  color: #6eadc8;
 }
 
 .logo {
@@ -6738,7 +6757,7 @@ header a:visited {
 
 .title * {
   margin: 0;
-  color: #221f20;
+  color: #333;
 }
 
 .title {
@@ -6768,16 +6787,16 @@ header a:visited {
 }
 .nav a,
 .nav .nav-toggle {
-  color: #db82f7;
+  color: #d972ff;
 }
 .nav .active a,
 .nav a:hover,
 .nav .nav-toggle:hover {
-  color: #fdeaee;
+  color: #ffff;
 }
 .nav a:hover,
 .nav .nav-toggle:hover {
-  color: #c95d69;
+  color: #c689f9;
 }
 
 .nav-toggle {
@@ -6788,18 +6807,18 @@ header a:visited {
 .footer {
   display: flex;
   height: 150px;
-  background: #db82f7;
-  color: #c95d69;
+  background: #d972ff;
+  color: #ffff;
 }
 .footer a {
   text-decoration: none;
-  color: #e4e3e0;
+  color: #ffff;
 }
 .footer i {
   text-decoration: none;
 }
 .footer a:hover {
-  color: #fdeaee;
+  color: #6eadc8;
 }
 .footer p {
   margin: 0;
@@ -6969,7 +6988,8 @@ p,
     width: auto;
   }
 
-  .flash-img {
+  .flash-img,
+.schema {
     max-width: 100%;
     margin: 0, auto;
   }

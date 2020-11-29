@@ -51,6 +51,7 @@
     .nav {
         clear: both;
         padding: 0;
+        color: $color3;
 
         ul {
             padding-bottom: 1em;
@@ -60,6 +61,7 @@
             display: block;
             margin-left: 0;
             text-align: center;
+            color: $color3;
         }
 
         ul li a {

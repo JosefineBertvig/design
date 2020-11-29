@@ -1,16 +1,21 @@
-$background: #db82f7 !default;
-$color: #c95d69 !default;
+$header: #c979db !default;
+$background: #d972ff !default;
+$color: #c689f9 !default;
 
-$background-color: #e4e3e0 !default;
-$color2: #fdeaee !default;
-
-$textcolor: #221f20 !default;
-$header: #6db7e9 !default;
+$background-color: #fbfaf7 !default;
+$color2: #ffff !default;
+$color3: #333 !default;
+$textcolor: #333 !default;
+$textcolorp: #333;
+$border2: #f2c3de;
+$frame: #d394d5;
+$framefrontpage: #6eadc8;
 
 $font-size: 1.2em;
 $font-size-h1: 1.7em;
 $font-size-h2: 1.5em;
 $font-size-h3: 1.3em;
+$font-size-h4: 1.2em;
 
 $line: 1.4;
 $magic-number: $font-size * $line;

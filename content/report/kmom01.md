@@ -36,3 +36,4 @@ Har börjat göra sidan responsiv och ser fram emot att utveckla den delen mer, 
 TIL för detta kursmoment är att inte ge upp. Jag har varit frustrerad och inte förstått hur jag ska göra. Det är bara att fortsätta försöka och göra om igen. 
 Jag har lärt mig mycket nya saker, om Markdown, Pico, Git-hub och versionshanteringen. Det har varit väldigt inspirerande och roligt att arbeta med att skapa bilderna till den nya sidan. 
 
+
