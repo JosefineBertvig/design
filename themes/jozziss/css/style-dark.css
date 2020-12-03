@@ -6476,7 +6476,7 @@ readers do not read off random characters that represent icons */
 .main {
   flex: 1 0 auto;
   flex-grow: 1;
-  min-height: calc(1800px - 100px);
+  min-height: calc(1400px - 100px);
 }
 
 .container {
@@ -6848,14 +6848,14 @@ header a:hover {
 
 /**
  * responsive
- */
+
 @media screen and (orientation: portrait) {
-  body {
-    background-image: url("assets/img/portrait.png");
-    height: auto;
-    background-size: cover;
-  }
-}
+    body {
+        background-image: url('assets/img/portrait.png');
+        height: auto;
+        background-size: cover;
+    }
+}*/
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1400px) {
   body,
@@ -6979,6 +6979,7 @@ p,
     flex-direction: column;
     text-align: center;
     width: 100%;
+    height: auto;
   }
 
   main {
@@ -7058,6 +7059,7 @@ p,
   .nav {
     clear: both;
     padding: 0;
+    color: rgba(230, 221, 221, 0.651);
   }
   .nav ul {
     padding-bottom: 1em;
@@ -7066,6 +7068,7 @@ p,
     display: block;
     margin-left: 0;
     text-align: center;
+    color: rgba(230, 221, 221, 0.651);
   }
   .nav ul li a {
     display: block;
