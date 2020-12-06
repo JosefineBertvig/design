@@ -48,3 +48,7 @@
 .schema {
     height: 400px;
 }
+
+img, embed, object, video {
+    max-width: 100%;
+}

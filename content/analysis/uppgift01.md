@@ -14,9 +14,9 @@ Urval
 
 Jag har valt att jämföra tre hemsidor som marknadsför träningsformer. Jag blev inspirerad av föreläsningarna till detta kursmoment och ville jämföra om hemsidorna marknadsför sig på olika sätt beroende på vilken målgrupp de vänder sig till. Därför gjordes ett urval som riktar sig till olika målgrupper med syfte att konsumera träning. Yogasidan Yogobe, träningsanläggningen Elite och träningsanläggningen Friskis & Svettis valdes ut, urvalet gjordes med hypotesen att dessa sidor vänder sig till olika målgrupper och att de därför kommer att använda olika färgscheman beroende på vilken målgrupp de vill tilltala och vilken känsla de önskar skapa hos konsumenterna. 
 
-Yogobe: https://yogobe.com/se <br>
-Elite:https://elitsportsclub.se <br>
-Friskis & Svettis: https://www.friskissvettis.se <br>
+Yogobe: <a class="links"> https://yogobe.com/se </a> <br>
+Elite: <a class="links"> https://elitsportsclub.se </a> <br>
+Friskis & Svettis: <a class="links"> https://www.friskissvettis.se </a><br>
 
 Metod
 -----------------------

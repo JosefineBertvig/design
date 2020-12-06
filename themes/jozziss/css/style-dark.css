@@ -6508,6 +6508,10 @@ readers do not read off random characters that represent icons */
   height: 400px;
 }
 
+img, embed, object, video {
+  max-width: 100%;
+}
+
 /*** TYPOGRAPHY ***/
 html {
   font-size: 100%;
@@ -6697,12 +6701,85 @@ body {
   .container {
     margin-left: 0;
   }
+
+  /* Youtubevideo responsive */
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media (max-width: 676px) {
   .side-nav {
     visibility: hidden;
     display: none;
+  }
+
+  /* Youtubevideo responsive */
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.gallery {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-column: span 3;
+  justify-self: center;
+  gap: 2em 2em;
+  padding: 2em;
+}
+
+.gallerypic {
+  grid-column: span 1;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  border: 3px solid #202945;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 992px) {
+  .gallery {
+    grid-column: span 6;
+    justify-self: center;
+  }
+
+  .gallerypic {
+    grid-column: span 3;
+  }
+}
+@media (max-width: 992px) and (max-width: 767px) {
+  .gallery {
+    grid-columns: span 4;
   }
 }
 body {
@@ -6814,19 +6891,12 @@ header a:hover {
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
   display: flex;
-  height: 150px;
+  height: 250px;
   background: #152028;
-  color: rgba(230, 221, 221, 0.651);
-}
-.footer a {
-  text-decoration: none;
   color: rgba(230, 221, 221, 0.651);
 }
 .footer i {
   text-decoration: none;
-}
-.footer a:hover {
-  color: #85f2af23;
 }
 .footer p {
   margin: 0;
@@ -6844,6 +6914,15 @@ header a:hover {
   margin: 0 auto;
   flex: 1;
   /* same as flex-grow: 1; */
+}
+
+a {
+  text-decoration: none;
+  color: rgba(230, 221, 221, 0.651);
+}
+
+a:hover {
+  color: #85f2af23;
 }
 
 /**

@@ -3,6 +3,7 @@
 @import 'basic';
 @import 'typography';
 @import 'report';
+@import 'gallery';
 
 body {
     min-height: 480px;
@@ -122,21 +123,12 @@ header {
 
 .footer {
     display: flex;
-    height: 150px;
+    height: 250px;
     background: $background;
     color: $color2;
 
-    a {
-        text-decoration: none;
-        color: $color2;
-    }
-
     i {
         text-decoration: none;
-    }
-
-    a:hover {
-        color: $framefrontpage;
     }
 
     p {
@@ -157,6 +149,15 @@ header {
     margin: 0 auto;
     flex: 1;
     /* same as flex-grow: 1; */
+}
+
+a {
+    text-decoration: none;
+    color: $color2;
+}
+
+a:hover {
+    color: $framefrontpage;
 }
 
 @import 'responsive';
