@@ -78,21 +78,17 @@
      <main class="main" role="main">
         <div class="gallery">
             {% for image in meta.images %}
-                <div>
-                <a href="{{ base.url }}/dbwebb-kurser/design/me/portfolio/image/gallery/{{ image.url }}">
-
+                <div class="gallerypic">
+                <a href="{{ base_url }}/image/gallery/{{ image.url }}">
                     <picture>
-                        <source media="(min-width: 668px)" class="gallerypic" srcset="{{ base.url }}/dbwebb-kurser/design/me/portfolio/image/gallery/{{ image.url }}">
-                        <source media="(min-width: 376px)" class="gallerypic" srcset="{{ base.url }}/dbwebb-kurser/design/me/portfolio/image/gallery/{{ image.url }}&w=667">
-                        <img class="gallerypic" src="{{ base.url }}/dbwebb-kurser/design/me/portfolio/image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
+                        <source media="(min-width: 668px)" src="{{ base_url }}/image/gallery/{{ image.url }}">
+                        <source media="(min-width: 376px)" src="{{ base_url }}/image/gallery/{{ image.url }}&w=667">
+                        <img src="{{ base_url }}/image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
                     </picture>
                 </a>
                 </div>
             {% endfor %}
         </div>
-
-
-
     </main>
 
     <footer class="footer">

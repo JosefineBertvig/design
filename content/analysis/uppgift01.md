@@ -51,7 +51,7 @@ Accentfärger:
 <td style="height: 50px; width: 50px; background-color: #117FA8">
 </tr>
 </table>
-Elite använder blått och guld som accentfärger.
+Elit använder blått och guld som accentfärger.
 
 Typsnitt: H1-H2 rubrikerna är typsnittet "Droid serif", ett typsnitt med serif. "Open sans" som är en sans serif används för H3 och som brödtext används "open sans light" som är en variant av samma typsnitt med smalare bokstäver, även denna är en sans serif. 
 
