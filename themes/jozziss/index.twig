@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,15 +35,16 @@
     {% endif %}
 
 
-        <img class"header-pic" src="{{ base_url }}/image/header.png"/>
 
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+        <img alt="headerpic" class"header-pic" src="{{ base_url }}/image/header.jpg"/>
+
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
+                <div class="logo">
+                    <a href="{{ "index"|link }}" aria-label="Home">
                         <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                         {# <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" /> #}
                     </a>
@@ -84,7 +85,7 @@
         </div>
 
         <aside>
-            <img class="aside" src="{{ base_url }}/image/mirakel.png"/>
+            <img alt="asidepic" class="aside" src="{{ base_url }}/image/mirakel.jpg"/>
 
         <p></p>
         </aside>
@@ -103,7 +104,7 @@
                 {% endfor %}
             </div>
             <p>
-                &copy; Copyright 2020, Josefine Bertvig
+                Developed by Jozziss 2020, Josefine Bertvig
             </p>
         </div>
     </div>

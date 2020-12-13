@@ -9,7 +9,7 @@ Template: kmom
 Kmom5
 ==================
 
-<h3>Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.</h3>
+<h2>Berätta kort om erfarenheterna med din undersökning av webbplatsers laddningstid och vad du kom fram till.</h2>
 Jag valde att granska de sidor som jag undersökte under förra rapporten. Alla mina sidor jag granskade fick låga värden enligt Pagespeed, enligt devtools hamnade Elit på en laddningstid på 2.2s, Yogobe och Friskis & Svettis hamnade på en laddningstid på straxt över 4s. Det som visade sig gällande Performance på samtliga sidor jag granskade var att bildformat/bildstorlek hade kunnat spara laddningstider och ökat värdena i mätningarna. Min egen analys var att jag har kortare tålamod när jag laddar mobilsidor och det är oftare då som jag reagerar på bilder som tar lång tid att ladda. Jag valde att jämföra med Lighthouse desktop värdena med mobilversions värdena och mobilanalysen blev märkbart sämre enligt granskningen. 
 
 
@@ -30,5 +30,5 @@ Så det jag tar med mig från detta moment är att kunna ha mer högupplösta bi
 Slutligen bifogar jag i denna resultat text en Youtube-video gällande inlärning och hur man kan tänka när man möter svårigheter. 
 
 <div class="embed-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9vJRopau0g0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" title="Super Mario Effect" src="https://www.youtube.com/embed/9vJRopau0g0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

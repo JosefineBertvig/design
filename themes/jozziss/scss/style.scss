@@ -1,5 +1,5 @@
-@import 'common';
 @import 'variables';
+@import 'common';
 @import 'basic';
 @import 'typography';
 @import 'report';
@@ -12,6 +12,14 @@ body {
     margin: 8px auto;
     display: flex;
     margin: 0;
+}
+
+h1 {
+    font-size: $font-size-h1;
+    line-height: $line;
+    margin-bottom: $magic-number;
+    color: $textcolor;
+    letter-spacing: 0.1em;
 }
 
 /*** BASIC LAYOUT: HEADER ***/
@@ -76,11 +84,20 @@ header {
     padding: 3em 0;
     text-align: right;
     margin-right: 20px;
+    justify-content: space-between;
 
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
+    }
+
+    ul li a {
+        border-radius: 5px;
+        border: 1px solid $color;
+        background: $border2;
+        box-shadow: inset 1px 1px 1px 2px rgba(255, 255, 255, 0.3), 1px 4px 6px rgba(0, 0, 0, 0.7);
+        justify-content: space-between;
     }
 
     ul li {
@@ -98,12 +115,12 @@ header {
     .active a,
     a:hover,
     .nav-toggle:hover {
-        color: $color2;
+        color: $color4;
     }
 
     a:hover,
     .nav-toggle:hover {
-        color: $color;
+        color: $background;
     }
 }
 

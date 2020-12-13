@@ -21,7 +21,7 @@ body {
 
 .kmom-box {
     grid-column: span 1;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: repeat(3, 1fr);
     border: 3px solid $frame;
     display: flex;
     flex-direction: column;
@@ -69,11 +69,10 @@ body {
 /* Sidebar links */
 .side-nav a {
     display: block;
-    color: $color2;
+    color: $color4;
     padding: 16px;
     text-decoration: none;
 }
-
 
 /* Active/current link */
 .sidebar .active {

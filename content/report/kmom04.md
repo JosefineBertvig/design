@@ -8,7 +8,7 @@ Template: kmom
 
 Kmom4
 ==================
-<h3>Kommentera kort om skrivuppgiften, något som är värt att nämna från arbetet med den?</h3>
+<h2>Kommentera kort om skrivuppgiften, något som är värt att nämna från arbetet med den?</h2>
 Det var väldigt roligt och intressant att fokusera på olika hemsidor och göra analyser av deras färgval och känslan sidorna skapade. Det var lite knepigt att göra ett urval, jag ville jämföra några sidor med ungefär samma innehåll eller fokus och undersöka om de riktade sig till olika målgrupper, valet fick bli att fokusera på olika träningssidor. Det var ett kul sätt att göra färgerna i ett färgschema i redovisningen, det blev väldigt tydligt vilka färger som användes, valde att göra likadant med accentfärgerna och visa dem under redovisningen. 
 
 

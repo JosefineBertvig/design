@@ -1,22 +1,23 @@
-$header: #20294599 !default;
+$header: #03091a99 !default;
 $background: #152028 !default;
 $color: #85f2af23 !default;
 
 $background-color: #121212 !default;
-$color2: rgba(230, 221, 221, 0.651) !default;
-$color3: rgba(230, 221, 221, 0.651) !default;
-$textcolor: rgba(130, 130, 136, 0.795) !default;
-$textcolorp: rgba(252, 236, 236, 0.753);
+$color2: rgba(243, 234, 234, 0.959) !default;
+$color3: rgba(245, 237, 237, 0.815) !default;
+$color4: rgba(235, 221, 221, 0.884) !default;
+$textcolor: rgba(240, 229, 229, 0.877) !default;
+$textcolorp: rgba(236, 225, 225, 0.863);
 
 $border2: rgba(130, 130, 136, 0.795);
 $frame: #202945;
 $framefrontpage: #010003a9;
-//$colorlinks: #85f2af23;
+
 $font-size: 1.2em;
 $font-size-h1: 1.7em;
 $font-size-h2: 1.5em;
 $font-size-h3: 1.3em;
-$font-size-h4: 1.4em;
+$font-size-h4: 1.2em;
 
 $line: 1.4;
 $magic-number: $font-size * $line;

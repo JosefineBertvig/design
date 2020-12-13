@@ -8,7 +8,7 @@ Template: kmom
 
 Kmom3
 ==================
-<h3>Hur har det gått att jobba med CSS-Grid/Flexbox?</h3>
+<h2>Hur har det gått att jobba med CSS-Grid/Flexbox?</h2>
 Det har varit roligt att lära mig att jobba med Grid. Det var enkelt att dela upp innehållet och det var lätt att få stylingen responsiv. Jag kunde lägga in 1 kolum på mobil och 2 kollummer på ipad. Har sett fram emot att lära mig Grid.
 Föreläsningarna har varit väldigt bra och givande att lyssna på och har gett en god kunskapsgrund för detta kursmoment. Även guiderna och de anvisade litteraturhänvisningarna har varit bra och värdefull kunskap. 
 

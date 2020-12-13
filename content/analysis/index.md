@@ -22,8 +22,8 @@ Redovisningssida för rapporter och analys
 </div>
 
 <div class="kmom-box">
-<h2>Kmom03</h2>
+<h2>Analys 3</h2>
 <br><br>
-<p>Här är redovisning från kmom03</p>  
+<p>Designprinciper</p>  
 <a href="analysis/uppgift03"><p>Läs mer...</p></a>      
 </div>

@@ -9,7 +9,7 @@ Template: kmom
 Kmom2
 ==================
 
-<h3>Vad tycker du om SASS än så länge?</h3>
+<h2>Vad tycker du om SASS än så länge?</h2>
 
 Det känns roligt och användbart att arbeta med SASS. Det är bra med möjligheten att använda variabler och det förenklar att kunna använda nästlade regler. 
 Jag tycker om möjligheten att använda variabler för att underlätta att skapa ett färgtema. Jag gick in på canvas.com där jag skapat loggan och en av bilderna, där kunde jag hämta ut färgkoden och se färgteman utifrån de färgerna skapade jag sedan variablerna för färger som hemsidan bygger på. Det var ett roligt sätt att jobba på för att få balans och en känsla av att sidan hör ihop. 
