@@ -6490,7 +6490,7 @@ readers do not read off random characters that represent icons */
 }
 
 .widescreen .container {
-  max-width: 72em;
+  max-width: 1800px;
 }
 
 /*** LAYOUT PICTURE ***/

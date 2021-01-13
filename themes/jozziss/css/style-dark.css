@@ -6490,7 +6490,7 @@ readers do not read off random characters that represent icons */
 }
 
 .widescreen .container {
-  max-width: 72em;
+  max-width: 1800px;
 }
 
 /*** LAYOUT PICTURE ***/
@@ -6768,7 +6768,7 @@ body {
 body {
   min-height: 480px;
   background-color: #121212;
-  width: 1900px;
+  width: auto;
   margin: 8px auto;
   display: flex;
   margin: 0;
